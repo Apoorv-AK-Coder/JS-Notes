@@ -1,59 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Notes</title>
 
     <style>
-        table, th, td { border:1px solid black; padding:10px; text-align: center; border-collapse: collapse;}
-        .row {max-width:1100px; background-color: antiquewhite; margin:auto;}
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            border-collapse: collapse;
+            font-family: cursive;
+        }
+
+        .row {
+            max-width: 1100px;
+            background-color: antiquewhite;
+            margin: auto;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <table class="row" style="width:100%;">
             <tr>
+                <th style="font-size: 20px; width:60px;">No.</th>
+                <th style="font-size: 20px;">Topic</th>
+                <th style="font-size: 20px;">Watching Link</th>
+            </tr>
+            <tr>
+                <td>001➺</td>
+                <td>a</td>
+                <td>
+                    https://www.youtube.com/watch?v=bBpKJccIdvQ&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=1&t=120s&pp=iAQB
+                </td>
+            </tr>
+            <tr>
+                <td>002➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=kXrFo4pq23Q&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=2&t=449s&pp=iAQB</td>
+            </tr>
+            <tr>
+                <td>003➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=3uaHXOqvo-Y&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=3&t=1703s&pp=iAQB</td>
+            </tr>
+            <tr>
+                <td>004➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=OLPjfooY1jA&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=4&pp=iAQB</td>
+            </tr>
+            <tr>
+                <td>005➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=lh1_1LC-Dsg&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=5&pp=iAQB</td>
+            </tr>
+            <tr>
+                <td>006➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=PdrQFHbDpV4&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=7</td>
+            </tr>
+            <tr>
+                <td>007➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=skuInd9QRik&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=8</td>
+            </tr>
+            <tr>
+                <td>008➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=1GaFauzaDYI&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=9</td>
+            </tr>
+            <tr>
+                <td>009➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=6kcqYsJFQ0U&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=10&t=79s</td>
+            </tr>
+            <tr>
+                <td>010➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=d59b-EWx7Js&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=11</td>
+            </tr>
+            <tr>
+                <td>011➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=b4TTfueJBhw&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=12</td>
+            </tr>
+            <tr>
+                <td>012➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=7nK--9Sg_CM&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=13</td>
+            </tr>
+            <tr>
+                <td>013➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=5jrRE6t_DFw&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=14</td>
+            </tr>
+            <tr>
+                <td>014➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=pnjH6Wwb_lY&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=15</td>
+            </tr>
+            <tr>
+                <td>015➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=rPV1BP5q1T4&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=16&t=1461s</td>
+            </tr>
+            <tr>
+                <td>016➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=kx5IVx87Gqk&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=17</td>
+            </tr>
+            <tr>
+                <td>017➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=bkgY_zLEPKQ&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=18</td>
+            </tr>
+            <tr>
+                <td>018➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=BVBclNH9eWk&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=19</td>
+            </tr>
+            <tr>
+                <td>019➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=2mVzge1V9rg&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=20</td>
+            </tr>
+            <tr>
+                <td>020➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=wMkfDfSnxQQ&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=21</td>
+            </tr>
+            <tr>
+                <td>021➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=hqHSPxJPANQ&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=22</td>
+            </tr>
+            <tr>
+                <td>022➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=a91F7HXo2b0&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=23</td>
+            </tr>
+            <tr>
+                <td>023➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=8OLcnlQ_PNk&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=24</td>
+            </tr>
+            <tr>
+                <td>024➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=WgHQ9FnU9ho&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=25</td>
+            </tr>
+            <tr>
+                <td>025➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=9uZV38QM6ew&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=26</td>
+            </tr>
+            <tr>
+                <td>026➺</td>
+                <td>a</td>
+                <td>https://youtube.com/watch?v=QRUW31F5t9g&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=27</td>
+            </tr>
+            <tr>
+                <td>027➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=AmdUDQARn7g&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=28</td>
+            </tr>
+            <tr>
+                <td>028➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=xS1NVHe9hgg&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=29</td>
+            </tr>
+            <tr>
+                <td>029➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=RMD9NkCWImQ&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=30</td>
+            </tr>
+            <tr>
+                <td>030➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=BZS2ZAa7kRU&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=31</td>
+            </tr>
+            <tr>
+                <td>031➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=EgJWaLmvHbo&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=32</td>
+            </tr>
+            <tr>
+                <td>032➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=omCLq-mfIeQ&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=33</td>
+            </tr>
+            <tr>
+                <td>033➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=_tsG9ahYBvk&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=34</td>
+            </tr>
+            <tr>
+                <td>034➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=R6tbu5_f4NY&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=35</td>
+            </tr>
+            <tr>
+                <td>035➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=7wFduiQPOt4&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=36</td>
+            </tr>
+            <tr>
+                <td>036➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=QOk7lqHVbDg&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=37</td>
+            </tr>
+            <tr>
+                <td>037➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=G75up5ILlJ0&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=38</td>
+            </tr>
+            <tr>
+                <td>038➺</td>
+                <td>a</td>
+                <td>
+                    https://www.youtube.com/watch?v=6QjLquqgq1E&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=39
+                </td>
+            </tr>
+            <tr>
+                <td>039➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>040➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>041➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>042➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>043➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>044➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>045➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>046➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>047➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
             <tr>
+                <td>048➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>049➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>050➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>051➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>052➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>053➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>054➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>055➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>056➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>057➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>058➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>059➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>060➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>061➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>062➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>063➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>064➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>065➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>066➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>067➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>068➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>069➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>070➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>071➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>072➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>073➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>074➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>075➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>076➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>077➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>078➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>079➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>080➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>081➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>082➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>083➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>084➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>085➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>086➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>087➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>088➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>089➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>090➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>091➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>092➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>093➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>094➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>095➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>096➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>097➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>098➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>099➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>100➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>101➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=CLulrSmt-ug&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=101&pp=iAQB</td>
+            </tr>
+            <tr>
+                <td>102➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=AbTUZBvNAIc&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=102&pp=iAQB</td>
+            </tr>
+            <tr>
+                <td>103➺</td>
+                <td>a</td>
+                <td>https://www.youtube.com/watch?v=3UCurcUveO8&list=PLjpp5kBQLNTSvHo6Rp4Ky0X8x_MabmKye&index=103&pp=iAQB</td>
+            </tr>
+            <tr>
+                <td>104➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>105➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>106➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>107➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>108➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>109➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>110➺</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>111➺</td>
                 <td>a</td>
                 <td>a</td>
             </tr>
         </table>
     </div>
 </body>
+
 </html>
