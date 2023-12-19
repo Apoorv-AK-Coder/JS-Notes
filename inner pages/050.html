@@ -11,7 +11,30 @@
     <div class="container" style="border-bottom:2px solid black;">
         <div class="row">
             <div class="column">
-                a
+                <h1> Adjacent HTML</h1>
+                <p>Enter the HTML in any place it have 4 positions (). We did not need to create element. Its parse the text itself into te HTML.</p>
+
+                <br>
+                <!--     Before Begin -->
+  
+  <div id="intro">
+    <!--     After Begin -->
+        
+        <h2>This is a Heading</h2>
+        <p>This is a Paragraph</p>
+    <!--     Before End -->
+      </div>
+    <!--     After End -->
+
+
+                <br>
+
+                <p>let elm = document.getElementById("intro");</p>
+    <p>let html = "<h1>New Heading</h1>";</p>
+    <p>elm.insertAdjacentHTML('beforebegin', html);</p>
+    <p>elm.insertAdjacentHTML('afterbegin', html);</p>
+    <p>elm.insertAdjacentHTML('beforeend', html);</p>
+    <p>elm.insertAdjacentHTML('afterend', html);</p>
             </div>
         </div>
     </div>
@@ -20,9 +43,9 @@
             <div class="column">
                 <nav>
                     <ul>
-                        <li><a href="./001.html">« Prev</a></li>
+                        <li><a href="./049.html">« Prev</a></li>
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="./002.html">Next »</a></li>
+                        <li><a href="./051.html">Next »</a></li>
                     </ul>
                 </nav>
                 <header></header>

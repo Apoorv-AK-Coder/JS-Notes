@@ -11,7 +11,22 @@
     <div class="container" style="border-bottom:2px solid black;">
         <div class="row">
             <div class="column">
-                a
+                <h1> Clone Element</h1>
+                <p>Clone or copy the element</p>
+
+                <ul id="menu">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Products</li>
+                  </ul>
+
+                  <br>
+
+                  <p>let parent = document.getElementById("menu");</p>
+                  <p>let elm = parent.cloneNode(true);</p>
+                  <p>document.body.appendChild(elm);</p>
+                  <p>elm.id="idname";</p>
+                  <p>console.log(elm);</p>
             </div>
         </div>
     </div>

@@ -32,16 +32,35 @@ nav ul li {
     border-radius: 5px 5px 0 0;
     margin: 0 5px 10px 5px;
     text-align: center;
-    font-size: 18px;
+    line-height: 2;
+    font-family: cursive;
+    font-size: 14px
 }
 
-nav ul li:hover {background-color: red;}
+nav ul li:hover {
+    background-color: red;
+}
 
-ul {
+nav ul {
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
-li a {color: antiquewhite; text-decoration: none;}
-li a:hover {color:antiquewhite;}
+li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: antiquewhite;
+}
+
+p,
+h1,
+h2,
+h3,
+li {
+    line-height: 2;
+    font-family: cursive;
+}
