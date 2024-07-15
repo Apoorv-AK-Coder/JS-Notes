@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Multiple Selector</h1>
+    <h2><a href="/index.html">←Home</a></h2>
+    <h2><a href="./040.html">⇐Prev</a> | <a href="./042.html">Next⇒</a></h2>
+    <p>How to select the multiple section by tag name</p>
+
+    <h2>h1</h2>
+<p>p1</p>
+<h2>h2</h2>
+<p>p2</p>
+<h2>h3</h2>
+<p>p3</p>
+
+<p>let element = document.getElementByTagName(“p”);</p>
+<p>console.log(element.innerHTML);</p>
+<p>for(let i = 0; i < element.length; i++) { element.innerHTML = “LSFG”;}</p>
+
+
+<h2>h1</h2>
+<p>p1</p>
+<div id=”div1”>
+<h2>h2</h2>
+<p>p2</p>
+<h2>h3</h2>
+<p>p3</p>
+
+<p>let div2 = document.getElementById(“div1”);</p>
+<p>let element = div2.getElementByTagName(“p”);</p>
+<p>console.log(element.innerHTML);</p>
+<p>for(let i = 0; i < element.length; i++) { element.innerHTML = “LSFG”;}</p>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Traversing Elements</h1>
+    <h2><a href="/index.html">←Home</a></h2>
+    <h2><a href="./042.html">⇐Prev</a> | <a href="./044.html">Next⇒</a></h2>
+
+    
+    <p>How to select a perticular div into the HTML file</p>
+    <p>
+        <h2>Heading 1</h2>
+        <ul>
+            <li id="intro"> List 1</li>
+            <li> List 2</li>
+            <li> List 3</li>
+            <li> List 4</li>
+        </ul>
+        <ul>
+            <li> List a</li>
+            <li> List b</li>
+            <li> List c</li>
+            <li> List d</li>
+        </ul>
+    </p>
+
+    <p>let elm = document.getElemtBuId("intro");</p>
+    <p>let prt = elm.parentElement;</p>
+    <p>prt.innerHTML = "Hello";</p>
+    <p>console.log(prt);</p>
+    <p>let node = elm.firstElementCHild; \\\\\\to select the first child of the element</p>
+    <p>let node = elm.lastElementCHild; \\\\\\to select the last child of the element</p>
+    <p>let node = elm.children; \\\\\\to select the whole element of the parent</p>
+    <p>let node = elm.previousElementSibling; \\\\\\to select the siblings of the element</p>
+</body>
+</html>
